@@ -26,3 +26,10 @@ body {
   font-size: large;
   color: indianred;
 }
+
+.carousel-item {
+  max-height: 600px;
+  max-width: 600px;
+  /* overflow: hidden; */
+  text-align: center;
+}  
