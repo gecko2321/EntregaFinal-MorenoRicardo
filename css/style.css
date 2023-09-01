@@ -1,0 +1,90 @@
+
+/* Cereo Maregens y Padding del documento */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lemonchiffon;
+}
+
+.tituloHeader{
+  font-family: 'Artifika', serif;
+  text-align: right;
+  font-size:xx-large;
+  }
+  
+
+
+/* Box Modeling */
+.contenedorHeader {
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.contenedorFooter {
+  position: relative;
+  background-color: burlywood;
+
+}
+
+/* Caracteristicas del logo */
+.logoHeader {
+  width: 150px;
+}
+
+.logoFooter {
+  position: absolute;
+  width: 60px;
+  height: 80px;
+  top: 10px;
+  left: 10px ;
+}
+
+.textoFooter{
+    font-size: medium;
+    font-style: oblique;
+    text-align: center;
+}
+
+/* Menu en Linea */
+li {
+  display: inline;
+}
+
+/* Caracteristicas del Menu */
+nav {
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+}
+
+h1{
+color: indianred;
+font-family: 'Roboto', sans-serif;
+text-align: center;
+text-decoration: solid;
+}
+
+/* h2{
+    color: indianred;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+} */
+
+
+.iframe{
+    
+    text-align: center;
+}
+
+.textoIframe{
+    color: indianred;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
