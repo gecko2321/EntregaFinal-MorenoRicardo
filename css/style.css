@@ -21,15 +21,27 @@ body {
   text-align: center;
 }
 
-.navbar a{
+.navbar a {
   font-family: Verdana;
   font-size: large;
   color: indianred;
 }
 
 .carousel-item {
+  position: relative;
   max-height: 600px;
   max-width: 600px;
   /* overflow: hidden; */
   text-align: center;
-}  
+}
+
+.titulo {
+  font-family: Verdana;
+  font-size: large;
+  color: indianred;
+  text-align: center;
+}
+
+.backgroundcolor{
+  background-color: lemonchiffon;
+}
