@@ -8,40 +8,32 @@ body {
   background-color: lemonchiffon;
 }
 
+.iframe {
+  text-align: center;
+}
+
 .tituloHeader {
   font-family: "Artifika", serif;
-  /* text-align: right; */
   font-size: xx-large;
   color: indianred;
   text-align: center;
   text-decoration: solid;
 }
 
-.iframe {
-  text-align: center;
-}
-
-.navbar a {
-  font-family: Verdana;
-  font-size: large;
-  color: indianred;
-}
-
-.carousel-item {
-  position: relative;
-  max-height: 600px;
-  max-width: 600px;
-  /* overflow: hidden; */
-  text-align: center;
-}
-
 .titulo {
-  font-family: Verdana;
+  font-family: verdana;
   font-size: large;
   color: indianred;
   text-align: center;
 }
 
-.backgroundcolor{
+.navbar {
   background-color: lemonchiffon;
 }
+.navbar a {
+  font-family: verdana;
+  font-size: large;
+  color: indianred;
+}
+
+/*# sourceMappingURL=style.css.map */
