@@ -18,6 +18,7 @@ body {
   color: indianred;
   text-align: center;
   text-decoration: solid;
+  padding: 1rem;
 }
 
 .titulo {
@@ -25,6 +26,17 @@ body {
   font-size: large;
   color: indianred;
   text-align: center;
+  padding: 1rem;
+}
+
+.carousel-item {
+  position: center;
+  left: 5rem;
+  top: 5rem;
+  bottom: 8rem;
+  right: 8rem;
+  max-height: 600px;
+  max-width: 600px;
 }
 
 .navbar {
@@ -34,6 +46,9 @@ body {
   font-family: verdana;
   font-size: large;
   color: indianred;
+}
+.navbar a:hover {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
