@@ -39,6 +39,15 @@ body {
   max-width: 600px;
 }
 
+.aniInicio {
+  background-image: linear-gradient(to right, rgb(212, 174, 130), rgb(148, 92, 27));
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+.aniInicio:hover {
+  background-position: 100% 0;
+}
+
 .navbar {
   background-color: lemonchiffon;
 }

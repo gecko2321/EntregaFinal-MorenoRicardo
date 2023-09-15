@@ -32,9 +32,15 @@ body {
 
 .carousel-item {
   @include position(center,5rem,5rem,8rem,8rem);
-  
   max-height: 600px;
   max-width: 600px;
- 
-  
+}
+
+.aniInicio{
+  background-image: linear-gradient(to right, pink, rgb(203, 36, 203));
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+  &:hover{
+      background-position: 100% 0;
+  }
 }
