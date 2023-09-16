@@ -26,12 +26,12 @@ body {
   font-size: $tituloFontSize;
   color: $tituloColor;
   text-align: $tituloTextAlign;
-  padding: 1rem;
+  padding:1rem;
 }
 
 
 .carousel-item {
-  @include position(center,5rem,5rem,8rem,8rem);
+  @include position(right,5rem,5rem,8rem,8rem);
   max-height: 600px;
   max-width: 600px;
 }
@@ -44,3 +44,4 @@ body {
       background-position: 100% 0;
   }
 }
+
