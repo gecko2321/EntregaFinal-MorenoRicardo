@@ -43,10 +43,19 @@ body {
   background-image: linear-gradient(to right, pink, rgb(236, 204, 236));
   background-size: 200% 100%;
   transition: background-position 0.5s;
+  border: 250px;
+  border: solid;
 }
 .aniInicio:hover {
   background-position: 100% 0;
+  font-size: xx-large;
+  border: 0px;
+}
+
+.texto {
+  font-family: "Economica", sans-serif;
   font-size: x-large;
+  color: rgb(87, 79, 124);
 }
 
 .navbar {
