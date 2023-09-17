@@ -10,6 +10,7 @@ body {
 
 .iframe {
   text-align: center;
+  padding: 1rem;
 }
 
 .tituloHeader {
@@ -26,31 +27,30 @@ body {
   font-size: $tituloFontSize;
   color: $tituloColor;
   text-align: $tituloTextAlign;
-  padding:1rem;
+  padding: 1rem;
 }
 
-
 .carousel-item {
-  @include position(right,5rem,5rem,8rem,8rem);
+  @include position(right, 5rem, 5rem, 8rem, 8rem);
   max-height: 600px;
   max-width: 600px;
 }
 
-.aniInicio{
+.aniInicio {
   background-image: linear-gradient(to right, pink, rgb(236, 204, 236));
   background-size: 200% 100%;
   transition: background-position 0.5s;
   border: 250px;
-      border: solid;
-  &:hover{
-      background-position: 100% 0;
-      font-size: xx-large;
-      border:0px
+  border: solid;
+  &:hover {
+    background-position: 100% 0;
+    font-size: xx-large;
+    border: 0px;
   }
 }
 
-.texto{
-  font-family: 'Economica', sans-serif;
+.texto {
+  font-family: "Economica", sans-serif;
   font-size: x-large;
   color: $textoColor;
 }
