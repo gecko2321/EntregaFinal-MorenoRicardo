@@ -21,6 +21,8 @@
     />
     <!-- Link a CSS -->
     <link rel="stylesheet" href="../css/style.css" />
+    <!-- css de animate.css -->
+    <link rel="stylesheet" href="../css/animate.css">
     <!-- Icono en la pestaña -->
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
   </head>
@@ -94,7 +96,7 @@
     <!-- Body -->
 
     <main class="about">
-      <section class="about__box">
+      <section class="about__box wow fadeInUp" data-wow-duration="3s" data-wow-delay=".5s">
         <img
           src="../img/Nosotros/a.png"
           alt="Imagen A"
@@ -115,7 +117,7 @@
           </p>
         </div>
       </section>
-      <section class="about__box">
+      <section class="about__box wow fadeInUp" data-wow-duration="6s" data-wow-delay=".5s">
         <img src="../img/Nosotros/b.png" alt="" class="about__img--md" />
         <div>
           <h2 class="about__header--left">Visión</h2>
@@ -135,7 +137,7 @@
           </p>
         </div>
       </section>
-      <section class="about__box">
+      <section class="about__box wow fadeInUp" data-wow-duration="7s" data-wow-delay=".5s">
         <img src="../img/Nosotros/c.png" alt="" class="about__img--md" />
         <div>
           <h2 class="about__header--left">Integrantes</h2>
@@ -240,5 +242,10 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <!-- js de wow.js -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
   </body>
 </html>

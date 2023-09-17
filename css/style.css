@@ -40,12 +40,13 @@ body {
 }
 
 .aniInicio {
-  background-image: linear-gradient(to right, pink, rgb(203, 36, 203));
+  background-image: linear-gradient(to right, pink, rgb(236, 204, 236));
   background-size: 200% 100%;
   transition: background-position 0.5s;
 }
 .aniInicio:hover {
   background-position: 100% 0;
+  font-size: x-large;
 }
 
 .navbar {
