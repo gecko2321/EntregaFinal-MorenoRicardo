@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lemonchiffon;
+  background-color: white;
 }
 
 .iframe {
@@ -14,7 +14,7 @@ body {
 }
 
 .tituloHeader {
-  font-family: "Artifika", serif;
+  font-family: "Roboto", sans-serif;
   font-size: xx-large;
   color: indianred;
   text-align: center;
@@ -23,7 +23,7 @@ body {
 }
 
 .titulo {
-  font-family: verdana;
+  font-family: "Roboto", sans-serif;
   font-size: xx-large;
   color: indianred;
   text-align: center;
@@ -66,10 +66,10 @@ body {
 }
 
 .navbar {
-  background-color: lemonchiffon;
+  background-color: white;
 }
 .navbar a {
-  font-family: verdana;
+  font-family: "Roboto", sans-serif;
   font-size: large;
   color: indianred;
 }
@@ -115,6 +115,52 @@ body {
   line-height: 1.4em;
   font-weight: 300;
   margin: 10px 0;
+}
+
+.productos {
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.productos figure {
+  width: 30%;
+  border: solid 1px pink;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.productos figure figcaption {
+  color: white;
+  font-size: 1.4em;
+}
+.productos figure p {
+  text-align: center;
+}
+.productos figure button {
+  border: none;
+  background-color: indianred;
+  padding: 6px;
+  color: white;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+.productos figure button:hover {
+  cursor: pointer;
+  background-color: indianred;
+}
+
+.btn-animado {
+  background-image: linear-gradient(to right, rgb(32, 31, 31), rgb(228, 142, 228));
+  background-size: 200% 100%;
+  transition: background-position 0.5s;
+}
+.btn-animado:hover {
+  background-position: 100% 0;
 }
 
 /*# sourceMappingURL=style.css.map */

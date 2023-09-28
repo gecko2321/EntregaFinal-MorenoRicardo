@@ -1,16 +1,17 @@
 {
-  "name": "preentrega3-morenoricardo",
+  "name": "entregafinal-morenoricardo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {		
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"sass": "sass",
-		"sass:watch": "sass --watch scss/style.scss  css/style.css"
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/style.scss  css/style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.67.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
