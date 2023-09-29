@@ -16,7 +16,7 @@ body {
 .tituloHeader {
   font-family: "Roboto", sans-serif;
   font-size: xx-large;
-  color: indianred;
+  color: #f15a29;
   text-align: center;
   text-decoration: solid;
   padding: 1rem;
@@ -25,44 +25,25 @@ body {
 .titulo {
   font-family: "Roboto", sans-serif;
   font-size: xx-large;
-  color: indianred;
+  color: #f15a29;
   text-align: center;
   padding: 1rem;
-}
-
-.carousel-item {
-  position: center;
-  left: 5rem;
-  top: 5rem;
-  bottom: 5rem;
-  right: 5rem;
-  max-height: 500px;
-  max-width: 500px;
-}
-.carousel-item .d-block {
-  position: relative;
-  left: 100%;
-  border: solid;
-  border-style: outset;
-}
-
-.aniInicio {
-  background-image: linear-gradient(to right, pink, rgb(236, 204, 236));
-  background-size: 200% 100%;
-  transition: background-position 0.5s;
-  border: 250px;
-  border: solid;
-}
-.aniInicio:hover {
-  background-position: 100% 0;
-  font-size: xx-large;
-  border: 0px;
 }
 
 .texto {
   font-family: "Economica", sans-serif;
   font-size: x-large;
-  color: rgb(87, 79, 124);
+  color: #f15a29;
+}
+
+.c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: contain;
+  filter: brightness(0.6);
 }
 
 .navbar {
@@ -71,7 +52,7 @@ body {
 .navbar a {
   font-family: "Roboto", sans-serif;
   font-size: large;
-  color: indianred;
+  color: #f15a29;
 }
 .navbar a:hover {
   color: rgb(32, 213, 219);
@@ -118,7 +99,7 @@ body {
 }
 
 .productos {
-  padding: 20px 30px;
+  padding: 10px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -126,7 +107,7 @@ body {
 .productos figure {
   width: 30%;
   border: solid 1px pink;
-  border-radius: 3px;
+  border-radius: 10px;
   margin-bottom: 20px;
   padding: 10px 20px;
   display: flex;
@@ -143,19 +124,19 @@ body {
 }
 .productos figure button {
   border: none;
-  background-color: indianred;
-  padding: 6px;
+  background-color: #f15a29;
+  padding: 3px;
   color: white;
   border-radius: 4px;
   margin: 10px 0;
 }
 .productos figure button:hover {
   cursor: pointer;
-  background-color: indianred;
+  background-color: #f15a29;
 }
 
 .btn-animado {
-  background-image: linear-gradient(to right, rgb(32, 31, 31), rgb(228, 142, 228));
+  background-image: linear-gradient(to right, #2bb673, #cfcc2a);
   background-size: 200% 100%;
   transition: background-position 0.5s;
 }
