@@ -116,7 +116,7 @@ body {
   justify-content: center;
 }
 .productos figure figcaption {
-  color: white;
+  color: #231f20;
   font-size: 1.4em;
 }
 .productos figure p {
@@ -142,6 +142,29 @@ body {
 }
 .btn-animado:hover {
   background-position: 100% 0;
+}
+
+@media (width < 1024px) {
+  .productos figure {
+    width: 40%;
+  }
+}
+@media (width < 768px) {
+  /* nav */
+  .productos figure {
+    flex-direction: column;
+    width: 80%;
+  }
+}
+@media (width < 576px) {
+  /* nav */
+  .productos figure {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.productos figure button {
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
